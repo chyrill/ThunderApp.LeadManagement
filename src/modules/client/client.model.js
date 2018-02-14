@@ -1,5 +1,5 @@
 import mongoose, { Schema } from 'mongoose';
-import validators from 'validators';
+import validator from 'validator';
 
 
 const ClientSchema = new Schema({
